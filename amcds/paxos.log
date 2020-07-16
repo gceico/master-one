@@ -1,0 +1,88 @@
+{"level":"info","time":1592840363929,"message":"Hub listening on 127.0.0.1:5000"}
+{"level":"info","time":1592840363930,"message":"ref-3: listening on 127.0.0.1:5003"}
+{"level":"info","time":1592840363931,"message":"ref-1: listening on 127.0.0.1:5001"}
+{"level":"info","time":1592840363931,"message":"ref-2: listening on 127.0.0.1:5002"}
+{"level":"info","time":1592840363934,"message":"Received registration from ref-1"}
+{"level":"info","time":1592840363935,"message":"Received registration from ref-2"}
+{"level":"info","time":1592840363936,"message":"Received registration from ref-3"}
+{"level":"info","time":1592840366033,"message":"Received registration from ceico-1"}
+{"level":"info","time":1592840366033,"message":"Received registration from ceico-3"}
+{"level":"info","time":1592840366038,"message":"Received registration from ceico-2"}
+{"level":"info","time":1592840368324,"message":"sys-1/ceico-1 will propose 50"}
+{"level":"info","time":1592840368324,"message":"sys-1/ceico-2 will propose 44"}
+{"level":"info","time":1592840368325,"message":"sys-1/ceico-3 will propose 73"}
+{"level":"info","time":1592840368325,"message":"sys-1/ref-1 will propose 84"}
+{"level":"info","time":1592840368325,"message":"sys-1/ref-2 will propose 37"}
+{"level":"info","time":1592840368325,"message":"sys-1/ref-3 will propose 13"}
+{"level":"info","time":1592840368325,"message":"Starting system sys-1 of process ref-1 ..."}
+{"level":"info","time":1592840368325,"message":"sys-1/ref-1: Starting consensus among ceico-1, ceico-2, ceico-3, ref-1, ref-2, ref-3"}
+{"level":"info","time":1592840368325,"message":"Starting system sys-1 of process ref-2 ..."}
+{"level":"info","time":1592840368325,"message":"sys-1/ref-2: Starting consensus among ceico-1, ceico-2, ceico-3, ref-1, ref-2, ref-3"}
+{"level":"info","time":1592840368325,"message":"Starting system sys-1 of process ref-3 ..."}
+{"level":"info","time":1592840368326,"message":"sys-1/ref-3: Starting consensus among ceico-1, ceico-2, ceico-3, ref-1, ref-2, ref-3"}
+{"level":"info","time":1592840368422,"message":"sys-1/ref-1 decided 13"}
+{"level":"info","time":1592840368422,"message":"sys-1/ref-2 decided 13"}
+{"level":"info","time":1592840368422,"message":"sys-1/ref-3 decided 13"}
+{"level":"info","time":1592840368440,"message":"sys-1/ceico-1 decided 13"}
+{"level":"info","time":1592840368626,"message":"sys-1/ref-2/EPFD: Increased timeout to 0.20 seconds"}
+{"level":"info","time":1592840368726,"message":"sys-1/ref-3/EPFD: Increased timeout to 0.20 seconds"}
+{"level":"info","time":1592840368926,"message":"sys-1/ref-3/EPFD: Increased timeout to 0.30 seconds"}
+{"level":"info","time":1592840368966,"message":"sys-1/ceico-2 decided 13"}
+{"level":"info","time":1592840369027,"message":"sys-1/ref-2/EPFD: Increased timeout to 0.30 seconds"}
+{"level":"info","time":1592840369227,"message":"sys-1/ref-1/EPFD: Increased timeout to 0.20 seconds"}
+{"level":"info","time":1592840369529,"message":"sys-1/ref-3/EPFD: Increased timeout to 0.40 seconds"}
+{"level":"info","time":1592840370229,"message":"sys-1/ref-2/EPFD: Increased timeout to 0.40 seconds"}
+{"level":"info","time":1592840370330,"message":"sys-1/ref-3/EPFD: Increased timeout to 0.50 seconds"}
+{"level":"info","time":1592840370574,"message":"sys-1/ceico-3 decided 13"}
+{"level":"info","time":1592840370630,"message":"sys-1/ref-1/EPFD: Increased timeout to 0.30 seconds"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840442634,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840442636,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840442636,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840442860,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840442861,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840442862,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840442934,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840442935,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840442935,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840443009,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840443009,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840443009,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840443237,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840443237,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840443237,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840443261,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840443261,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840443261,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840443511,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840443511,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840443512,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840443540,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840443541,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840443542,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840443661,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840443661,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840443661,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840443840,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840443841,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840443841,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840444015,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840444015,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840444016,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840444062,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840444063,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840444063,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840444141,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840444143,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840444144,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840444441,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840444441,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840444441,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840444463,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840444463,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840444463,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840444515,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840444515,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840444516,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}
+{"level":"error","error":"dial tcp 127.0.0.1:5142: connect: connection refused","time":1592840444741,"message":"Failed to send NETWORK_MESSAGE to ceico-1"}
+{"level":"error","error":"dial tcp 127.0.0.1:5282: connect: connection refused","time":1592840444741,"message":"Failed to send NETWORK_MESSAGE to ceico-2"}
+{"level":"error","error":"dial tcp 127.0.0.1:5356: connect: connection refused","time":1592840444741,"message":"Failed to send NETWORK_MESSAGE to ceico-3"}

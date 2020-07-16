@@ -1,0 +1,28 @@
+apply plugin: 'java'
+version '1.0'
+repositories {mavenCentral()}
+
+dependencies {
+    runtime "mysql:mysql-connector-java:+"
+    compile "mysql:mysql-connector-java:+"
+    compile 'org.mongodb:mongodb-driver-sync:4.0.3'
+    compile'javax.servlet:servlet-api:+'
+    compile 'com.thetransactioncompany:jsonrpc2-client:+'
+    compile 'com.thetransactioncompany:jsonrpc2-server:+'
+    compile 'org.apache.tomcat.embed:tomcat-embed-core:8.0.28',
+            'org.apache.tomcat.embed:tomcat-embed-logging-juli:8.0.28', 
+            'org.apache.tomcat.embed:tomcat-embed-jasper:8.0.28',
+            'org.apache.tomcat:tomcat-jasper:8.0.28',
+            'org.apache.tomcat:tomcat-jasper-el:8.0.28',
+            'org.apache.tomcat:tomcat-jsp-api:8.0.28'
+    implementation 'com.google.code.gson:gson:+'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'App'
+        )
+    }
+    from(configurations.compile.collect { it.isDirectory() ? it : zipTree(it) })
+}
