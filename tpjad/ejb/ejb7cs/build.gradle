@@ -1,0 +1,5 @@
+apply plugin: 'war'
+repositories { jcenter() }
+repositories { mavenCentral() }
+dependencies { providedCompile 'javax:javaee-api:+' }
+// Se apeleaza direct servletul: http://localhost:8080/ejb7cs/client

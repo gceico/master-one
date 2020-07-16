@@ -1,0 +1,16 @@
+apply plugin: 'java'
+repositories { mavenCentral() }
+repositories { jcenter() }
+dependencies {
+   compile 'org.apache.tomcat.embed:tomcat-embed-core:8.0.28',
+            'org.apache.tomcat.embed:tomcat-embed-logging-juli:8.0.28', 
+            'org.apache.tomcat.embed:tomcat-embed-jasper:8.0.28',
+            'org.apache.tomcat:tomcat-jasper:8.0.28',
+            'org.apache.tomcat:tomcat-jasper-el:8.0.28',
+            'org.apache.tomcat:tomcat-jsp-api:8.0.28'
+    implementation 'com.google.code.gson:gson:+'
+}
+jar {
+    manifest { attributes 'Main-Class': 'Main' }
+    from(configurations.compile.collect { it.isDirectory() ? it : zipTree(it) })
+}

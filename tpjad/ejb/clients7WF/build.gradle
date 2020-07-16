@@ -1,0 +1,14 @@
+apply plugin: 'java'
+repositories { jcenter() }
+repositories { mavenCentral() }
+dependencies { compile 'org.wildfly:wildfly-ejb-client-bom:+', 'javax:javaee-api:+' }
+//dependencies {compile 'org.glassfish.ejb.mdb.MessageBeanListenerImpl:+','javax:javaee-api:+'}
+jar {
+    from(configurations.compile.collect { it.isDirectory() ? it : zipTree(it) })
+    manifest {
+        attributes(
+                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Main-Class': 'p.clients.Client7WF'
+        )
+    }
+}

@@ -1,0 +1,14 @@
+apply plugin: 'java'
+repositories { mavenCentral() }
+repositories { jcenter() }
+dependencies {
+    compile 'org.eclipse.jetty:jetty-server:+',
+            'org.eclipse.jetty:jetty-servlet:+',
+            'org.eclipse.jetty:jetty-http:+',
+            'javax.servlet:javax.servlet-api:+'
+    implementation 'com.google.code.gson:gson:+'
+}
+jar {
+    manifest { attributes 'Main-Class': 'Main' }
+    from(configurations.compile.collect { it.isDirectory() ? it : zipTree(it) })
+}
